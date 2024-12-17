@@ -24,4 +24,4 @@ print(F"Per comprare {qnt} di {item} devi pagare {round(int(qnt) * float(price),
 item1 = input("Che cosa vuoi comprare? ")
 price1 = float(input("Quanto costa? "))
 qnt1 = int(input("Quanti ne compri? "))
-print(F"Per comprare {qnt} di {item} devi pagare {round(qnt1 * price1, 2)}€")
+print(F"Per comprare {qnt1} di {item1} devi pagare {round(qnt1 * price1, 2)}€")
